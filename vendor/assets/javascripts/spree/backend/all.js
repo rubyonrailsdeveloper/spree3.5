@@ -10,3 +10,5 @@
 
 //= require_tree .
 //= require spree/backend/spree_gift_card
+
+//= require admin/spree_favorite_products

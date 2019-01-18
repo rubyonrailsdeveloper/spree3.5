@@ -58,3 +58,5 @@ gem 'spree_auth_devise', '~> 3.4'
 gem 'spree_gateway', '~> 3.4'
 
 gem 'spree_gift_card' , github: 'vinsol-spree-contrib/spree_gift_card'
+gem 'spree_favorite_products', github: 'vinsol-spree-contrib/spree_favorite_products'
+

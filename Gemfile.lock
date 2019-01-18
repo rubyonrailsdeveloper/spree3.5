@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/vinsol-spree-contrib/spree_favorite_products.git
+  revision: 4d574c0ab86b91fdfbb726a46460cd17118f8ba3
+  specs:
+    spree_favorite_products (3.3.0)
+      spree_core (>= 3.2.0, < 4.0.0)
+      spree_extension (~> 0.0.5)
+
+GIT
   remote: https://github.com/vinsol-spree-contrib/spree_gift_card.git
   revision: 52173c1394431ca6785638b68bfab06edeca212c
   specs:
@@ -60,6 +68,10 @@ GEM
       activerecord (>= 3.0)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    appraisal (2.2.0)
+      bundler
+      rake
+      thor (>= 0.14.0)
     arel (8.0.0)
     autoprefixer-rails (9.4.5)
       execjs
@@ -373,6 +385,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  appraisal (~> 2.2)
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
@@ -385,6 +398,7 @@ DEPENDENCIES
   selenium-webdriver
   spree (~> 3.5.0)
   spree_auth_devise (~> 3.4)
+  spree_favorite_products!
   spree_gateway (~> 3.4)
   spree_gift_card!
   spring
