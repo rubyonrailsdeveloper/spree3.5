@@ -64,3 +64,4 @@ gem 'spree_address_auto_complete', git: 'https://github.com/vinsol-spree-contrib
 gem 'spree_promo_users_codes', github: 'vinsol-spree-contrib/spree_promo_users_codes', branch: 'master'
 gem 'spree_quotes_management', github: 'vinsol-spree-contrib/spree-quotes-management'
 gem 'spree_related_products', github: 'spree-contrib/spree_related_products'
+gem 'spree_best_sellers', github: 'rubyonrailsdeveloper/spree_best_seller'
