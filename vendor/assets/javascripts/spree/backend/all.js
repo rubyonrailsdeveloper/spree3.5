@@ -17,3 +17,5 @@
 //= require spree/backend/spree_promo_users_codes
 //= require spree/backend/spree_quotes_management
 //= require spree/backend/spree_best_sellers
+//= require spree/backend/spree_marketing
+//= require spree/backend/spree_events_tracker

@@ -13,6 +13,13 @@ GIT
       spree_core (~> 3.5.0)
 
 GIT
+  remote: https://github.com/rubyonrailsdeveloper/spree_contactUs.git
+  revision: d631d6d57f058a3d6b679170b845c3426a30f42f
+  specs:
+    spree_contact_us (3.3.0)
+      spree_core (>= 3.1.0, < 4.0)
+
+GIT
   remote: https://github.com/spree-contrib/spree_email_to_friend.git
   revision: 17c079a16919b89423d278bcf7b70666827be1fe
   branch: master
@@ -57,6 +64,14 @@ GIT
       spree (>= 3.2.0, < 4.0)
 
 GIT
+  remote: https://github.com/vinsol-spree-contrib/spree_events_tracker.git
+  revision: 13d01ec6578811f4e7a1db63693062cc80bc992d
+  specs:
+    spree_events_tracker (3.3.2)
+      spree_core (>= 3.2.0, < 4.0)
+      spree_extension (~> 0.0.5)
+
+GIT
   remote: https://github.com/vinsol-spree-contrib/spree_favorite_products.git
   revision: 4d574c0ab86b91fdfbb726a46460cd17118f8ba3
   specs:
@@ -74,6 +89,15 @@ GIT
       spree_core (>= 3.2.0, < 4.0)
       spree_extension
       spree_frontend (>= 3.2.0, < 4.0)
+
+GIT
+  remote: https://github.com/vinsol-spree-contrib/spree_marketing.git
+  revision: f430bbc40afdf65c5cb8ce842e70e6093dc9cbaa
+  specs:
+    spree_marketing (3.3.0)
+      gibbon
+      spree_core (>= 3.1.0, < 4.0)
+      whenever
 
 GIT
   remote: https://github.com/vinsol-spree-contrib/spree_promo_users_codes.git
@@ -162,6 +186,7 @@ GEM
       activesupport (>= 3.0.0)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
+    chronic (0.10.2)
     cldr-plurals-runtime-rb (1.0.1)
     climate_control (0.2.0)
     coffee-rails (4.2.2)
@@ -190,10 +215,15 @@ GEM
       devise (>= 2.1.0)
     erubi (1.8.0)
     execjs (2.7.0)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
     ffaker (2.10.0)
     ffi (1.10.0)
     friendly_id (5.2.5)
       activerecord (>= 4.0.0)
+    gibbon (3.2.0)
+      faraday (>= 0.9.1)
+      multi_json (>= 1.11.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     highline (1.6.21)
@@ -244,6 +274,7 @@ GEM
     money (6.13.2)
       i18n (>= 0.6.4, <= 2)
     multi_json (1.13.1)
+    multipart-post (2.0.0)
     nio4r (2.3.1)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
@@ -444,6 +475,8 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
+    whenever (0.10.0)
+      chronic (>= 0.6.3)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
@@ -465,10 +498,13 @@ DEPENDENCIES
   spree_address_auto_complete!
   spree_auth_devise (~> 3.4)
   spree_best_sellers!
+  spree_contact_us!
   spree_email_to_friend!
+  spree_events_tracker!
   spree_favorite_products!
   spree_gateway (~> 3.4)
   spree_gift_card!
+  spree_marketing!
   spree_product_subscriptions!
   spree_promo_users_codes!
   spree_quotes_management!
