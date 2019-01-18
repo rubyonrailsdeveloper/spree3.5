@@ -20,3 +20,4 @@
 
 //= require spree/frontend/spree_address_auto_complete
 //= require spree/frontend/spree_promo_users_codes
+//= require spree/frontend/spree_quotes_management
