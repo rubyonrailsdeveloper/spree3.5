@@ -10,4 +10,5 @@
  *= require spree/frontend/spree_gift_card
  *= require store/spree_favorite_products
  *= require spree/frontend/spree_product_subscriptions
+ *= require spree/frontend/spree_address_auto_complete
 */

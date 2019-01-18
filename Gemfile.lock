@@ -6,6 +6,14 @@ GIT
       spree_core (>= 3.2.0, < 4.0)
 
 GIT
+  remote: https://github.com/vinsol-spree-contrib/spree_address_auto_complete
+  revision: d1dc43a040fa56eb3d69931c2c29a626d5c1818b
+  branch: master
+  specs:
+    spree_address_auto_complete (3.3.0)
+      spree (>= 3.2.0, < 4.0)
+
+GIT
   remote: https://github.com/vinsol-spree-contrib/spree_favorite_products.git
   revision: 4d574c0ab86b91fdfbb726a46460cd17118f8ba3
   specs:
@@ -399,6 +407,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   selenium-webdriver
   spree (~> 3.5.0)
+  spree_address_auto_complete!
   spree_auth_devise (~> 3.4)
   spree_favorite_products!
   spree_gateway (~> 3.4)

@@ -18,3 +18,4 @@
 //= require spree/frontend/spree_favorite_products
 //= require spree/frontend/spree_product_subscriptions
 
+//= require spree/frontend/spree_address_auto_complete
