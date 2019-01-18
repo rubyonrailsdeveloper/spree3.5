@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: spree3_5_production
-  username: spree3_5
-  password: <%= ENV['SPREE3_5_DATABASE_PASSWORD'] %>
+  database: db5bj7t429thte
+  username: mffrghmpyyojmy
+  password: eacc27e2e58f862910b5b64d45bafe33187260c2b871d0ad1edf827c4e3b2593
