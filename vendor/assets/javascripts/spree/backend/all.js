@@ -12,3 +12,4 @@
 //= require spree/backend/spree_gift_card
 
 //= require admin/spree_favorite_products
+//= require spree/backend/spree_product_subscriptions
