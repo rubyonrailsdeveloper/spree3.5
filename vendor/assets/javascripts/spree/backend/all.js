@@ -14,3 +14,4 @@
 //= require admin/spree_favorite_products
 //= require spree/backend/spree_product_subscriptions
 //= require spree/backend/spree_address_auto_complete
+//= require spree/backend/spree_promo_users_codes

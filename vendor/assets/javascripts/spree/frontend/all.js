@@ -19,3 +19,4 @@
 //= require spree/frontend/spree_product_subscriptions
 
 //= require spree/frontend/spree_address_auto_complete
+//= require spree/frontend/spree_promo_users_codes
