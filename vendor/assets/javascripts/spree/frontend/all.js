@@ -22,3 +22,4 @@
 //= require spree/frontend/spree_promo_users_codes
 //= require spree/frontend/spree_quotes_management
 //= require spree/frontend/spree_best_sellers
+//= require spree/frontend/spree_wishlist

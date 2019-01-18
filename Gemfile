@@ -65,3 +65,5 @@ gem 'spree_promo_users_codes', github: 'vinsol-spree-contrib/spree_promo_users_c
 gem 'spree_quotes_management', github: 'vinsol-spree-contrib/spree-quotes-management'
 gem 'spree_related_products', github: 'spree-contrib/spree_related_products'
 gem 'spree_best_sellers', github: 'rubyonrailsdeveloper/spree_best_seller'
+gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist', branch: 'master'
+gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: 'master'
