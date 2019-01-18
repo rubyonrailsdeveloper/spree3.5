@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/vinsol-spree-contrib/spree_gift_card.git
+  revision: 52173c1394431ca6785638b68bfab06edeca212c
+  specs:
+    spree_gift_card (3.2.0)
+      spree_api (>= 3.2.0, < 4.0)
+      spree_backend (>= 3.2.0, < 4.0)
+      spree_core (>= 3.2.0, < 4.0)
+      spree_extension
+      spree_frontend (>= 3.2.0, < 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -375,6 +386,7 @@ DEPENDENCIES
   spree (~> 3.5.0)
   spree_auth_devise (~> 3.4)
   spree_gateway (~> 3.4)
+  spree_gift_card!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)

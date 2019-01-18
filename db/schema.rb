@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190118170901) do
+ActiveRecord::Schema.define(version: 20190118171606) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -156,6 +156,32 @@ ActiveRecord::Schema.define(version: 20190118170901) do
     t.text "preferences"
     t.index ["active"], name: "index_spree_gateways_on_active"
     t.index ["test_mode"], name: "index_spree_gateways_on_test_mode"
+  end
+
+  create_table "spree_gift_card_transactions", id: :serial, force: :cascade do |t|
+    t.decimal "amount", precision: 6, scale: 2
+    t.integer "gift_card_id"
+    t.integer "order_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string "action"
+    t.string "authorization_code"
+  end
+
+  create_table "spree_gift_cards", id: :serial, force: :cascade do |t|
+    t.integer "variant_id", null: false
+    t.integer "line_item_id"
+    t.string "email", null: false
+    t.string "name"
+    t.text "note"
+    t.string "code", null: false
+    t.datetime "sent_at"
+    t.decimal "current_value", precision: 8, scale: 2, null: false
+    t.decimal "original_value", precision: 8, scale: 2, null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.decimal "authorized_amount", precision: 8, scale: 2, default: "0.0", null: false
+    t.boolean "enabled", default: false
   end
 
   create_table "spree_inventory_units", id: :serial, force: :cascade do |t|
@@ -410,6 +436,7 @@ ActiveRecord::Schema.define(version: 20190118170901) do
     t.boolean "promotionable", default: true
     t.string "meta_title"
     t.datetime "discontinue_on"
+    t.boolean "is_gift_card", default: false, null: false
     t.index ["available_on"], name: "index_spree_products_on_available_on"
     t.index ["deleted_at"], name: "index_spree_products_on_deleted_at"
     t.index ["discontinue_on"], name: "index_spree_products_on_discontinue_on"
