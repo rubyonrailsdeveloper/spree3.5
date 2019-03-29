@@ -69,6 +69,3 @@ gem 'spree_best_sellers', github: 'rubyonrailsdeveloper/spree_best_seller'
 gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist', branch: 'master'
 gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend', branch: 'master'
 
-gem 'spree_marketing', github: 'vinsol-spree-contrib/spree_marketing'
-gem 'spree_events_tracker', github: 'vinsol-spree-contrib/spree_events_tracker'
-gem 'spree_contact_us', github: 'rubyonrailsdeveloper/spree_contactUs'
