@@ -54,7 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'spree', '~> 3.5.0'
-gem 'spree_auth_devise', '~> 3.4'
+gem 'spree_auth_devise', '~> 4.0'
 gem 'spree_gateway', '~> 3.4'
 
 gem 'spree_gift_card' , github: 'vinsol-spree-contrib/spree_gift_card'
